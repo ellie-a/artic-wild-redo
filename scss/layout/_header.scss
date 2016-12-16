@@ -26,6 +26,9 @@
       li {
         @include text($main, $white, 15px, 50px, 10px);
       }
+      .orange:hover {
+        color: $orange;
+      }
     }
   }
   .header {
@@ -86,6 +89,9 @@
     margin-left: 5%;
     li {
       @include text(sans-serif, $grey);
+    }
+    li:hover {
+      color: $white;
     }
     #last {
       color: $orange;
