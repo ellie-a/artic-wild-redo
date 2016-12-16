@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+h1 {
+  color: tomato; }
+
+/*# sourceMappingURL=styles.css.map */
