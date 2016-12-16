@@ -1,0 +1,30 @@
+.top {
+  background-image: url('../img/background.jpg');
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+    h3 {
+      @extend html;
+      @include text($header, $white, 1.5em, $line-spc: .1em);
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    ul {
+      display: flex;
+      list-style-type: none;
+      width: 40%;
+      justify-content: space-between;
+      margin-right: 5%;
+      margin-top: 7%;
+      li {
+        @include text($main, $white);
+      }
+    }
+}
