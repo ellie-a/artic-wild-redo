@@ -85,5 +85,17 @@ i {
       height: 1px;
       margin: 0px auto;
       border-bottom: 5px solid white; }
+    .top .header button {
+      width: 20%;
+      height: 50px;
+      font-family: "Fjalla One", sans-serif;
+      color: white;
+      font-size: 0.8em;
+      letter-spacing: 0.15em;
+      margin-top: 10%;
+      border-radius: 5px;
+      border: none;
+      align-self: center;
+      background-color: #DC7725; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -52,5 +52,15 @@
       @include size(25%, 1px, 0px auto);
       border-bottom: 5px solid $white;
     }
+    button {
+      @include size(20%, 50px);
+      @include text($main, $white, .8em, $line-spc: .15em);
+      margin-top: 10%;
+      border-radius: 5px;
+      border: none;
+      align-self: center;
+      background-color: $orange;
+
+    }
   }
 }
