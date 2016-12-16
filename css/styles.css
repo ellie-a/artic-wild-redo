@@ -1,10 +1,10 @@
-html, body, .top-nav h3 {
+html, body, .top .top-nav h3 {
   box-sizing: border-box; }
 
 *, *::after, *::before {
   box-sizing: inherit; }
 
-html, body, .top-nav h3 {
+html, body, .top .top-nav h3 {
   box-sizing: border-box; }
 
 *, *::after, *::before {
@@ -17,10 +17,13 @@ html, body, .top-nav h3 {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-html, body, .top-nav h3 {
+html, body, .top .top-nav h3 {
   margin: 0;
   padding: 0;
   height: 100%; }
+
+body {
+  background-color: #646461; }
 
 i {
   color: white; }
@@ -30,28 +33,57 @@ i {
   width: 100%;
   height: 600px;
   background-size: cover; }
-
-.top-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row; }
-  .top-nav h3 {
-    font-family: "PT Serif", serif;
-    color: white;
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
-    margin-top: 5%;
-    margin-left: 5%; }
-  .top-nav ul {
+  .top .top-nav {
+    width: 100%;
     display: flex;
-    list-style-type: none;
-    width: 40%;
     justify-content: space-between;
-    margin-right: 5%;
-    margin-top: 7%; }
-    .top-nav ul li {
+    align-items: center;
+    flex-direction: row; }
+    .top .top-nav h3 {
+      font-family: "PT Serif", serif;
+      color: white;
+      font-size: 1.5em;
+      letter-spacing: 0.1em;
+      margin-top: 5%;
+      margin-left: 5%; }
+    .top .top-nav ul {
+      display: flex;
+      list-style-type: none;
+      width: 55%;
+      justify-content: space-between;
+      margin-right: 5%;
+      margin-top: 7%; }
+      .top .top-nav ul li {
+        font-family: "Fjalla One", sans-serif;
+        color: white;
+        letter-spacing: 0.15em; }
+  .top .header {
+    padding-top: 2.5%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; }
+    .top .header img {
+      align-self: center; }
+    .top .header h5 {
       font-family: "Fjalla One", sans-serif;
-      color: white; }
+      color: white;
+      font-size: 1.2em;
+      letter-spacing: 0.4em;
+      align-self: center; }
+    .top .header h2 {
+      font-family: "PT Serif", serif;
+      color: white;
+      font-size: 6em;
+      letter-spacing: 0.13em;
+      align-self: center;
+      margin: 0;
+      margin-top: -3%; }
+    .top .header .border {
+      width: 25%;
+      height: 1px;
+      margin: 0px auto;
+      border-bottom: 5px solid white; }
 
 /*# sourceMappingURL=styles.css.map */

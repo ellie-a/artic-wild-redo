@@ -1,4 +1,3 @@
-
 @mixin text($font: null, $font-color: null, $font-size: null, $font-weight: null, $line-h: null, $line-spc: null) {
   font-family: $font;
   color: $font-color;
@@ -6,4 +5,11 @@
   font-weight: $font-weight;
   line-height: $line-h;
   letter-spacing: $line-spc;
+}
+
+@mixin size($width: null, $height: null, $margin: null, $padding: null) {
+  width: $width;
+  height: $height;
+  margin: $margin;
+  padding: $padding;
 }
