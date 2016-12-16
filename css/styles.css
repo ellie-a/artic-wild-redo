@@ -42,8 +42,9 @@ i {
     .top .top-nav h3 {
       font-family: "PT Serif", serif;
       color: white;
-      font-size: 1.5em;
-      letter-spacing: 0.1em;
+      font-size: 20px;
+      font-weight: 30px;
+      line-height: 6px;
       margin-top: 5%;
       margin-left: 5%; }
     .top .top-nav ul {
@@ -56,13 +57,16 @@ i {
       .top .top-nav ul li {
         font-family: "Fjalla One", sans-serif;
         color: white;
-        letter-spacing: 0.15em; }
+        font-size: 15px;
+        font-weight: 50px;
+        line-height: 10px; }
   .top .header {
     padding-top: 2.5%;
     width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: auto; }
     .top .header img {
       align-self: center; }
@@ -97,5 +101,34 @@ i {
       border: none;
       align-self: center;
       background-color: #DC7725; }
+
+.bottom-nav {
+  margin: 0;
+  padding: 0;
+  background-color: #323232;
+  height: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+  .bottom-nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 5%; }
+    .bottom-nav ul li {
+      font-family: sans-serif;
+      color: #bdbdb7; }
+    .bottom-nav ul #last {
+      color: #DC7725; }
+  .bottom-nav h3 {
+    margin-right: 5%;
+    font-family: sans-serif;
+    color: #bdbdb7; }
+  .bottom-nav i {
+    color: #8c8c82; }
 
 /*# sourceMappingURL=styles.css.map */

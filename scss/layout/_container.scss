@@ -12,7 +12,7 @@
     flex-direction: row;
     h3 {
       @extend html;
-      @include text($header, $white, 1.5em, $line-spc: .1em);
+      @include text($header, $white, 20px, 30px, 6px);
       margin-top: 5%;
       margin-left: 5%;
     }
@@ -24,7 +24,7 @@
       margin-right: 5%;
       margin-top: 7%;
       li {
-        @include text($main, $white, $line-spc: .15em);
+        @include text($main, $white, 15px, 50px, 10px);
       }
     }
   }
@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: auto;
     img {
       align-self: center;
@@ -62,5 +63,39 @@
       background-color: $orange;
 
     }
+  }
+}
+
+.bottom-nav {
+  margin: 0;
+  padding: 0;
+  background-color: #323232;
+  height: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 5%;
+    li {
+      @include text(sans-serif, $grey);
+    }
+    #last {
+      color: $orange;
+    }
+  }
+  h3{
+    margin-right: 5%;
+    @include text(sans-serif, $grey)
+  }
+  i {
+    color: darken($grey, 20%);
   }
 }
