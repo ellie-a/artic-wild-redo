@@ -51,36 +51,39 @@ i {
       transform: scale(1.2); }
   .cards .card:nth-of-type(1) {
     flex-grow: 1.8;
-    flex-basis: 400px;
+    flex-basis: 525px;
     background-image: url("../img/rafting.jpg");
     background-position: left; }
   .cards .card:nth-of-type(2) {
-    flex-grow: 1.3;
-    flex-basis: 266px;
+    flex-grow: 1;
+    flex-basis: 369.5px;
     background-image: url("../img/camp.jpg");
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center; }
   .cards .card:nth-of-type(3) {
     flex-grow: 1;
-    flex-basis: 266px;
+    flex-basis: 369.5px;
     background-image: url("../img/backpacking.jpg");
     background-position: top; }
   .cards .card:nth-of-type(4) {
     flex-grow: 1;
-    flex-basis: 400px;
+    flex-basis: 369.5px;
     background-image: url("../img/canoe.jpg");
     background-size: auto;
     background-position: center; }
   .cards .card:nth-of-type(5) {
-    flex-grow: 1.3;
-    flex-basis: 266px;
+    flex-grow: 1;
+    flex-basis: 369.5;
     background-image: url("../img/photography.jpg");
     background-position: right; }
   .cards .card:nth-of-type(6) {
     flex-grow: 1.8;
-    flex-basis: 280px;
-    background-image: url("../img/custom.jpg"); }
+    flex-basis: 400px;
+    background-image: url("../img/custom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
 
 .top {
   background-image: url("../img/background.jpg");
