@@ -13,3 +13,9 @@
   margin: $margin;
   padding: $padding;
 }
+
+@mixin cards($grow: null, $basis: null, $backgr: null) {
+  flex-grow: $grow;
+  flex-basis: $basis;
+  background-image: $backgr;
+}
