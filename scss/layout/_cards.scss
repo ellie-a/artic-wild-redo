@@ -18,9 +18,7 @@
         font-size: 2em;
       }
     }
-      button:hover {
-      transform: scale(1.2);
-    }
+
     // .border {
     //   @include size(10%, 1px);
     //   border-bottom: 5px solid $orange;
@@ -34,6 +32,10 @@
     //   left: 10%;
     // }
   }
+.card:hover {
+   button{
+     transform: scale(1.2);}
+}
   .card:nth-of-type(1) {
     @include cards(1.8, 525px, url('../img/rafting.jpg'));
     background-position: left;
